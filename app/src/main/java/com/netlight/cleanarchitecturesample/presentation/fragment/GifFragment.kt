@@ -16,6 +16,7 @@ import kotlinx.android.synthetic.main.fragment_answer.view.*
 class GifFragment : DialogFragment() {
 
     private lateinit var gifUri: Uri
+// Testing
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
