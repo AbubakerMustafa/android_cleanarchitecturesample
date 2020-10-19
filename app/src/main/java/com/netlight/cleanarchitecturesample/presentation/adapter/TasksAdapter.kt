@@ -1,14 +1,8 @@
 package com.netlight.cleanarchitecturesample.presentation.adapter
 
-import android.view.LayoutInflater
-import android.view.ViewGroup
-import androidx.recyclerview.widget.DiffUtil
-import androidx.recyclerview.widget.ListAdapter
-import com.netlight.cleanarchitecturesample.R
-import com.netlight.cleanarchitecturesample.domain.entity.Item
-import com.netlight.cleanarchitecturesample.presentation.viewmodel.TasksViewModel
 
-class TasksAdapter(private val viewModel: TasksViewModel) :
+/*
+class TasksAdapter(private val viewModel: ProductsViewModel) :
     ListAdapter<Item, TaskViewHolder>(DIFF_CALLBACK) {
 
     override fun onCreateViewHolder(parent: ViewGroup, viewType: Int): TaskViewHolder {
@@ -32,4 +26,4 @@ class TasksAdapter(private val viewModel: TasksViewModel) :
             }
         }
     }
-}
+}*/

@@ -20,7 +20,7 @@ android {
             }
         }
 
-        buildConfigField "String", "API_YESNO", '"https://yesno.wtf"'
+        buildConfigField "String", "API_CHECK24", '"https://app.check24.de/"'
     }
 
     buildTypes {

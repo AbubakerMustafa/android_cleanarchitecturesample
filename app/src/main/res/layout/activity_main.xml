@@ -6,10 +6,10 @@
     tools:context=".presentation.activity.MainActivity">
 
     <fragment
-        android:id="@+id/tasks_fragment"
+        android:id="@+id/product_fragment"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:name="com.netlight.cleanarchitecturesample.presentation.fragment.TasksFragment"
-        tools:layout="@layout/fragment_tasks_overview" />
+        android:name="com.netlight.cleanarchitecturesample.presentation.fragment.ProductsFragment"
+        tools:layout="@layout/fragment_products_listing" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
