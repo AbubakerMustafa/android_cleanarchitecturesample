@@ -7,6 +7,7 @@ import android.view.View
 import android.view.ViewGroup
 import androidx.fragment.app.Fragment
 import androidx.lifecycle.Observer
+import androidx.navigation.fragment.findNavController
 import com.netlight.cleanarchitecturesample.R
 import com.netlight.cleanarchitecturesample.presentation.viewmodel.ProductsViewModel
 import org.koin.androidx.viewmodel.ext.android.viewModel
@@ -39,5 +40,12 @@ class ProductsFragment : Fragment() {
         })
 
         viewModel.getProducts()
+
+
     }
+
+    fun moveToProductDetailsFragment() {
+        findNavController().navigate(R.id.action_productsFragment_to_productDetailsFragment)
+    }
+
 }
